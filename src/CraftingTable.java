@@ -1,0 +1,26 @@
+public class a {
+    public class CraftingTable {
+        /**
+         * This function should put the item in the table at the provided row and column
+         *
+         * @param  table 2D array you are putting the item in
+         * @param  item the name of the item you are putting in the table
+         * @param  row row index
+         * @param  column column index
+         * @return      the updated table
+         */
+        public String[][] AddItem(String[][] table, String item, int row, int column){
+            return new String[0][0];
+        }
+        /**
+         * This function should remove the first instance of the item it is looking for and then stop
+         *
+         * @param  table 2D array you are searching
+         * @param  item the name of the item you are removing
+         * @return      the updated table
+         */
+        public String[][] RemoveItem(String[][] table, String item){
+            return new String[0][0];
+    }
+
+}
