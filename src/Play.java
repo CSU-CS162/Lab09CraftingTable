@@ -127,7 +127,7 @@ public class Play {
 
 
     public static void main(String[] args) throws FileNotFoundException {
-        Play craft = new Play("C:\\Users\\inter\\Desktop\\CS College programming\\MinecraftLab\\src\\recipes.txt"); //this loads up the recipes file for our crafting and starts the program
+        Play craft = new Play("recipes.txt"); //this loads up the recipes file for our crafting and starts the program
         craft.PlayGame();
     }
 }
