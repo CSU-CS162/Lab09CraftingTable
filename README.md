@@ -1,5 +1,4 @@
 # Lab09CraftingTable
-Using 2D arrays to create a crafting table
 
 This lab will focus on 2D Arrays, which is just arrays contained within arrays. These arrays become significantly more complex as we continue to nest them, which we can do, such as making an array that contains arrays which contain arays and so on. In order to get a bit of practice working with these kinds of nested arrays, you will be completing a crafting table simulator.
 
