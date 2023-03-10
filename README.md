@@ -9,8 +9,32 @@ To start this lab, we recommend you compile and run the program to get a feel fo
 
 If you are unfamiliar with the style of crafting we are using, you can check out the [Wikipedia](https://minecraft.fandom.com/wiki/Crafting) to learn more.
 
+Below is an example of what the table should physically look like using the bucket recipe:
+
+| X | X | X |
+| --- | --- | --- |
+| iron | X | iron |
+| --- | --- | --- |
+| X | iron | X |
+
+In Java, it looks more like this:
+[["X", "X", "X"], ["iron", "X", "iron"], ["X", "iron", "X"]]
+
+If we stack these rows vertically, we get something like this:
+[
+["X", "X", "X"],
+["iron", "X", "iron"],
+["X", "iron", "X"]
+]
+
+Starting to look more like our crafting table, right? 
+
+Remember that when you are accessing items in a 2D array, you must first index into the row, then into the column in that row. 
+Ex: table[1][2] would give us row 1, column 2, with item "iron".
+
+
 ## Step 1: Self-Explanation
-There are only two self-explanations that must be completed for this lab, one for AddItem and one for RemoveItem. I would recommend illstrating your table and mapping out how you may access the information you need a piece of paper to help with your understanding. 
+There are only two self-explanations that must be completed for this lab, one for addItem and one for removeItem. I would recommend illstrating your table and mapping out how you may access the information you need a piece of paper to help with your understanding. 
 
 2D Arrays can be difficult to visualize so that is why it is being urged to draw them!
 
