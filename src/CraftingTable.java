@@ -9,7 +9,7 @@ public class a {
          * @param  column column index
          * @return      the updated table
          */
-        public String[][] AddItem(String[][] table, String item, int row, int column){
+        public String[][] addItem(String[][] table, String item, int row, int column){
             return new String[0][0];
         }
         /**
@@ -19,7 +19,7 @@ public class a {
          * @param  item the name of the item you are removing
          * @return      the updated table
          */
-        public String[][] RemoveItem(String[][] table, String item){
+        public String[][] removeItem(String[][] table, String item){
             return new String[0][0];
     }
 
