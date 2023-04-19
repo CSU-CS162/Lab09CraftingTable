@@ -23,11 +23,11 @@ If we stack these rows vertically, we get something like this:
 
 [
 
-["X", "X", "X"],
+["X",    "X",    "X"],
 
 ["iron", "X", "iron"],
 
-["X", "iron", "X"]
+["X",  "iron",   "X"]
 
 ]
 
