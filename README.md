@@ -21,9 +21,13 @@ In Java, it looks more like this:
 
 If we stack these rows vertically, we get something like this:
 [
+
 ["X", "X", "X"],
+
 ["iron", "X", "iron"],
+
 ["X", "iron", "X"]
+
 ]
 
 Starting to look more like our crafting table, right? 
