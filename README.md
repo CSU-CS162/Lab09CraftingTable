@@ -20,6 +20,7 @@ In Java, it looks more like this:
 [["X", "X", "X"], ["iron", "X", "iron"], ["X", "iron", "X"]]
 
 If we stack these rows vertically, we get something like this:
+
 [
 
 ["X", "X", "X"],
