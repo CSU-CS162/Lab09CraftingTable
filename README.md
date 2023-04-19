@@ -13,6 +13,7 @@ Below is an example of what the table should physically look like using the buck
 
 | X | X | X |
 | --- | --- | --- |
+| --- | --- | --- |
 | iron | X | iron |
 | --- | --- | --- |
 | X | iron | X |
