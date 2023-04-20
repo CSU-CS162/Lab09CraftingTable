@@ -1,5 +1,4 @@
-public class a {
-    public class CraftingTable {
+public class CraftingTable {
         /**
          * This function should put the item in the table at the provided row and column
          *
@@ -21,6 +20,6 @@ public class a {
          */
         public String[][] removeItem(String[][] table, String item){
             return new String[0][0];
-    }
+        }
 
 }
