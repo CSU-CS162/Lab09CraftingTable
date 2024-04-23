@@ -12,7 +12,7 @@ public class CraftingTable {
             return new String[0][0];
         }
         /**
-         * This function should remove the first instance of the item it is looking for and then stop
+         * This function should replace the first instance of the item it is looking for with an empty string ("") and then stop
          *
          * @param  table 2D array you are searching
          * @param  item the name of the item you are removing
